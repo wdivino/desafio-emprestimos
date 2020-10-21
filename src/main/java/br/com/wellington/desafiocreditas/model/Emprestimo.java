@@ -1,6 +1,6 @@
-package br.com.wellington.desafiocreditas.modelo;
+package br.com.wellington.desafiocreditas.model;
 
-import br.com.wellington.desafiocreditas.modelo.enums.TipoEmprestimo;
+import br.com.wellington.desafiocreditas.model.enums.TipoEmprestimo;
 
 import java.util.Objects;
 

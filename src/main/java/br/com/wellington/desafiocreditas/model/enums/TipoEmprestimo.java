@@ -1,4 +1,4 @@
-package br.com.wellington.desafiocreditas.modelo.enums;
+package br.com.wellington.desafiocreditas.model.enums;
 
 public enum TipoEmprestimo {
 

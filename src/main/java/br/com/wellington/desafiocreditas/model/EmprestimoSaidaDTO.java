@@ -1,4 +1,4 @@
-package br.com.wellington.desafiocreditas.modelo;
+package br.com.wellington.desafiocreditas.model;
 
 import java.util.Set;
 

@@ -1,8 +1,8 @@
 package br.com.wellington.desafiocreditas.service.impl;
 
-import br.com.wellington.desafiocreditas.modelo.Cliente;
-import br.com.wellington.desafiocreditas.modelo.Emprestimo;
-import br.com.wellington.desafiocreditas.modelo.enums.TipoEmprestimo;
+import br.com.wellington.desafiocreditas.model.Cliente;
+import br.com.wellington.desafiocreditas.model.Emprestimo;
+import br.com.wellington.desafiocreditas.model.enums.TipoEmprestimo;
 import br.com.wellington.desafiocreditas.service.GerenciadorRegrasEmprestimos;
 import org.springframework.stereotype.Service;
 

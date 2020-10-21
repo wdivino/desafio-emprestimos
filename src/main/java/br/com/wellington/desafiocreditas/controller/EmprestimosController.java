@@ -1,8 +1,8 @@
 package br.com.wellington.desafiocreditas.controller;
 
-import br.com.wellington.desafiocreditas.modelo.Emprestimo;
-import br.com.wellington.desafiocreditas.modelo.EmprestimoEntradaDTO;
-import br.com.wellington.desafiocreditas.modelo.EmprestimoSaidaDTO;
+import br.com.wellington.desafiocreditas.model.Emprestimo;
+import br.com.wellington.desafiocreditas.model.EmprestimoEntradaDTO;
+import br.com.wellington.desafiocreditas.model.EmprestimoSaidaDTO;
 import br.com.wellington.desafiocreditas.service.EmprestimoService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;

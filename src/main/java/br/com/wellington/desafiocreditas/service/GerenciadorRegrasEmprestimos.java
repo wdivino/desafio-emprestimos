@@ -1,7 +1,7 @@
 package br.com.wellington.desafiocreditas.service;
 
-import br.com.wellington.desafiocreditas.modelo.Cliente;
-import br.com.wellington.desafiocreditas.modelo.Emprestimo;
+import br.com.wellington.desafiocreditas.model.Cliente;
+import br.com.wellington.desafiocreditas.model.Emprestimo;
 
 import java.util.Set;
 
