@@ -12,17 +12,13 @@ import java.util.Set;
 public class RegraRegrasEmprestimo3Impl implements GerenciadorRegrasEmprestimos {
 
     @Override
-    public Set<Emprestimo> executarRegrasBaseadoNoDadosDo(Cliente cliente) {
-
+    public Set<Emprestimo> executarRegrasBaseadoNosDadosDo(Cliente cliente) {
         Set<Emprestimo> emprestimos = Set.of();
-
         if (cliente.comRendaMaiorQue(5000) && cliente.comIdadeMenorQue(30)) {
-
             emprestimos = Set.of(new Emprestimo(TipoEmprestimo.PESSOAL),
                     new Emprestimo(TipoEmprestimo.COM_GARANTIA),
                     new Emprestimo(TipoEmprestimo.CONSIGNADO));
         }
-
         return emprestimos;
     }
 }

@@ -19,13 +19,10 @@ public class EmprestimoServiceImpl implements EmprestimoService {
 
     @Override
     public Set<Emprestimo> obterEmprestimosElegiveis(EmprestimoEntradaDTO emprestimoEntradaDTO) {
-
         Set<Emprestimo> emprestimosElegiveis = new HashSet<>();
         for (GerenciadorRegrasEmprestimos gerenciador : this.gerenciadorRegrasEmprestimos) {
-
-            emprestimosElegiveis.addAll(gerenciador.executarRegrasBaseadoNoDadosDo(emprestimoEntradaDTO.getCliente()));
+            emprestimosElegiveis.addAll(gerenciador.executarRegrasBaseadoNosDadosDo(emprestimoEntradaDTO.getCliente()));
         }
-
         return emprestimosElegiveis;
     }
 
